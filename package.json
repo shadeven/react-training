@@ -1,0 +1,27 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "The project is for learning react js.",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server" 
+  },
+  "author": "Steven Wu",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.12.2",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
